@@ -1,0 +1,19 @@
+/* @override http://b.iamnotaprogrammer.com/wp-content/themes/ianap/ianap.css */
+
+.landing {
+	    font-size:32px;
+		padding:0px 0 14px 0;
+}
+
+div.entry-content h3{
+	font-size: 26px;
+	padding:0px 0 14px 0;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 31px;
+}
+
+div.entry-content {
+	padding-top: 0;
+}
+
