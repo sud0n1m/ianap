@@ -1,20 +1,22 @@
 /* @override http://b.iamnotaprogrammer.com/wp-content/themes/ianap/ianap.css */
 
 @font-face {
-	font-family: 'HVDComicSerifProRegular';
-	src: url('HVD_Comic_Serif_Pro.eot');
-	src: local('HVD Comic Serif Pro'), local('HVDComicSerifPro'), url('HVD_Comic_Serif_Pro.woff') format('woff'), url('HVD_Comic_Serif_Pro.ttf') format('truetype'), url('HVD_Comic_Serif_Pro.svg#HVDComicSerifPro') format('svg');
+	font-family: 'HelsinkiRegular';
+	src: url('helsinki.eot');
+	src: local('Helsinki'), local('Helsinki'), url('helsinki.woff') format('woff'), url('helsinki.ttf') format('truetype'), url('helsinki.svg#Helsinki') format('svg');
 }
 
 #blog-title {
-	font-family: HVDComicSerifPro;
+	font: 60px/68px 'HelsinkiRegular', Arial, sans-serif;letter-spacing: 0;
 }
 
 h1.entry-title {
-	font-family: HVDComicSerifPro;
+	font: 24px/28px 'HelsinkiRegular', Arial, sans-serif;letter-spacing: 0;
 }
 
-h
+h2.entry-title a {
+	font: 24px/28px 'HelsinkiRegular', Arial, sans-serif;letter-spacing: 0;
+}
 
 .landing {
 	    font-size:32px;
@@ -32,4 +34,6 @@ div.entry-content h3{
 div.entry-content {
 	padding-top: 0;
 }
+
+
 
