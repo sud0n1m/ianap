@@ -51,7 +51,7 @@ Template Name: DaHomepage
 	</div><!-- #container -->
 	<div id="right" class="homepage">
 		<div id="recent-articles" class="homepage">
-			<h3>Recent Articles</h3>
+			<h3>Recent Blog Posts</h3>
 			<ul>
 			<?php wp_get_archives('type=postbypost&limit=5&format=html'); ?>
 			</ul>

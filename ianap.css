@@ -8,6 +8,11 @@
 
 #blog-title {
 	font: 60px/68px 'HelsinkiRegular', Arial, sans-serif;letter-spacing: 0;
+	color: #233444;
+	}
+
+#blog-title a{
+	color: #233444;
 }
 
 h1.entry-title {
@@ -39,11 +44,15 @@ div.entry-content {
 
 div#right.homepage {
 	float: right;
-	width: 480px;
+	width: 400px;
 }
 
 div#right.homepage h3 {
-		font: 24px/28px 'HelsinkiRegular', Arial, sans-serif;letter-spacing:
+		font: 20px/24px 'HelsinkiRegular', Arial, sans-serif;letter-spacing:;
+	color: rgba(113,155,194,0.74);
+	padding-left: 7px;
+	padding-top: 2px;
+	padding-bottom: 2px;
 }
 
 div#recent-articles.homepage {
@@ -51,10 +60,76 @@ div#recent-articles.homepage {
 }
 
 div#content.homepage {
-	width: 400px;
+	width: 500px;
 }
 
 div#container.homepage{
-	width: 400px;
+	width: 500px;
+}
+
+div.intro {
+background-color: rgba(0,75,145,0.1);
+-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+padding: 10px;
+margin-bottom: 10px;
+}
+
+div#header {
+	background-color: rgba(0,75,145,0.56);
+}
+
+h1#blog-description {
+	color: rgba(0,0,0,0.62);
+	font-weight: normal;
+	font-style: normal;
+	font-size: 1.1em;
+}
+
+.sf-menu {
+	border-bottom-style: none;
+	border-style: none;
+}
+.sf-menu a {
+	border-left:0px solid #ccc;
+	border-top:0px solid #ccc;
+	border-bottom:0px solid #ccc;
+	padding:10px 14px;
+	text-decoration:none;
+}
+
+.sf-menu li {
+	background-color: #3a536a;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright :5px;
+    -webkit-border-top-right-radius: 5px;
+	margin-left: 2px;
+}
+.sf-menu li a{
+	color: white;
+	 -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright :5px;
+    -webkit-border-top-right-radius: 5px;
+}
+.sf-menu li a:hover{
+	color: black;
+	 -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -moz-border-radius-topright :5px;
+    -webkit-border-top-right-radius: 5px;
+	background-color: rgba(113,155,194,0.52);
+}
+
+
+.sf-menu .current_page_item a{
+	background-color: white;
+	color: #233444;
+}
+.sf-menu .current_page_ancestor a,
+.sf-menu .current_page_parent a {
+	background-color: white;
+	color: #233444;
 }
 
