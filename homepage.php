@@ -13,11 +13,11 @@ Template Name: DaHomepage
 
 ?>
 
-	<div id="container">
-		<div id="content">
+	<div id="container" class="homepage">
+		<div id="content" class="homepage">
 
             <?php
-            
+        
             the_post();
             
             ?>
@@ -47,24 +47,28 @@ Template Name: DaHomepage
 				</div>
 			</div><!-- .post -->
 
-            <?php 
-        
-            if ( get_post_custom_values('comments') ) 
-                comments_template() // Add a key/value of "comments" to enable comments on pages!
-        
-            ?>
-
 		</div><!-- #content -->
 	</div><!-- #container -->
+	<div id="right" class="homepage">
+		<div id="recent-articles" class="homepage">
+			<h3>Recent Articles</h3>
+			<ul>
+			<?php wp_get_archives('type=postbypost&limit=5&format=html'); ?>
+			</ul>
+		</div>
+		<div id="contact-colin" class="homepage">
+			<h3>Get in touch</h3>
+			<ul>
+				<?php wp_list_bookmarks('title_li=&categorize=0&category=36'); ?>
+			</ul>
+		</div>
+	</div>
 
 <?php 
 
     // action hook for placing content below #container
     thematic_belowcontainer();
 
-    // calling the standard sidebar 
-    thematic_sidebar();
-    
     // calling footer.php
     get_footer();
 

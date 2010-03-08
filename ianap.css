@@ -18,11 +18,6 @@ h2.entry-title a {
 	font: 24px/28px 'HelsinkiRegular', Arial, sans-serif;letter-spacing: 0;
 }
 
-.landing {
-	    font-size:32px;
-		padding:0px 0 14px 0;
-}
-
 div.entry-content h3{
 	font-size: 26px;
 	padding:0px 0 14px 0;
@@ -31,9 +26,35 @@ div.entry-content h3{
 	line-height: 31px;
 }
 
+/* Homepage */
+
+.landing {
+	    font-size:32px;
+		padding:0px 0 14px 0;
+}
+
 div.entry-content {
 	padding-top: 0;
 }
 
+div#right.homepage {
+	float: right;
+	width: 480px;
+}
 
+div#right.homepage h3 {
+		font: 24px/28px 'HelsinkiRegular', Arial, sans-serif;letter-spacing:
+}
+
+div#recent-articles.homepage {
+	
+}
+
+div#content.homepage {
+	width: 400px;
+}
+
+div#container.homepage{
+	width: 400px;
+}
 
