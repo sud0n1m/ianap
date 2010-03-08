@@ -110,7 +110,7 @@ h1#blog-description {
 	text-decoration:none;
 }
 
-.sf-menu li, li li {
+.sf-menu li {
 	background-color: #3a536a;
     -moz-border-radius-topleft: 5px;
     -webkit-border-top-left-radius: 5px;
