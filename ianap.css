@@ -115,7 +115,7 @@ div#header {
     color: white;
 }
 
-.page_item{
+.sf-menu a, .sf-menu a:visited {
     color: rgba(201,222,245,1);
 }
 .sf-menu .children a  {
