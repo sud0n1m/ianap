@@ -91,6 +91,10 @@ div.entry-content img.alignleft{
     margin: 0;
 }
 
+#single-insert .aside {
+    background-color: rgba(201,222,245,0.80);
+}
+
 div#header {
 	background-color: rgba(0,75,145,0.56);
 }
