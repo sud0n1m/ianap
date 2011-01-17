@@ -87,6 +87,10 @@ div.entry-content img.alignleft{
 -webkit-border-radius: 10px;
 }
 
+.entry-content img {
+    margin: 0 0 0 0;
+}
+
 div#header {
 	background-color: rgba(0,75,145,0.56);
 }
