@@ -95,7 +95,7 @@ div#header {
 	background-color: rgba(0,75,145,0.56);
 }
 
-h1#blog-description {
+#blog-description {
 	color: rgba(35,61,88,0.90);
 	font-weight: normal;
 	font-style: normal;
