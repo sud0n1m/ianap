@@ -88,7 +88,7 @@ div.entry-content img.alignleft{
 }
 
 .entry-content img {
-    margin: 0 0 0 0;
+    margin: 0 0 0 ;
 }
 
 div#header {
@@ -96,7 +96,7 @@ div#header {
 }
 
 h1#blog-description {
-	color: rgba(0,0,0,0.62);
+	color: rgba(35,61,88,0.90);
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.1em;
@@ -112,6 +112,11 @@ h1#blog-description {
 	border-bottom:0px solid #ccc;
 	padding:10px 14px;
 	text-decoration:none;
+    color: white;
+}
+
+.sf-menu .children a  {
+    color: #ccc;
 }
 
 .sf-menu li {
