@@ -115,6 +115,9 @@ div#header {
     color: white;
 }
 
+.page_item{
+    color: rgba(201,222,245,1);
+}
 .sf-menu .children a  {
     color: #666;
 }
@@ -143,9 +146,6 @@ div#header {
 	background-color: rgba(113,155,194,0.52);
 }
 
-page_item{
-	color: black;
-}
 .sfHover{
 	color: black;
 }
